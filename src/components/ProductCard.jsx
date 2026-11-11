@@ -7,20 +7,14 @@ export function ProductCard({ product, onSelectProduct }) {
 
   return (
     <>
-      {/* ================= VISTA MÓVIL (Aceleración por GPU y carga diferida) ================= */}
-      <motion.div 
-        initial={{ opacity: 0, y: 30, filter: "blur(4px)" }}
-        whileInView={{ opacity: 1, y: 0, filter: "blur(0px)" }}
-        viewport={{ once: true, margin: "-10px" }}
-        transition={{ duration: 0.5, ease: [0.16, 1, 0.3, 1] }}
-        whileTap={{ scale: 0.97 }}
-        style={{ willChange: "transform, opacity, filter" }}
-        className="block md:hidden group relative bg-neutral-950 border border-brand-border rounded-sm overflow-hidden flex flex-col justify-between shadow-xl"
+      {/* ================= VISTA MÓVIL (100% CSS Nativo - Cero Lag, Animación Limpia y Fluida) ================= */}
+      <div 
+        className="block md:hidden group relative bg-neutral-950 border border-brand-border rounded-sm overflow-hidden flex flex-col justify-between shadow-lg transform-gpu transition-all duration-200"
       >
         <div className="absolute inset-0 opacity-15 bg-[radial-gradient(#383838_1px,transparent_1px)] [background-size:12px_12px] pointer-events-none" />
 
         <div 
-          className="relative aspect-[4/5] overflow-hidden bg-neutral-900 cursor-pointer"
+          className="relative aspect-[4/5] overflow-hidden bg-neutral-900 cursor-pointer active:scale-95 transition-transform duration-150"
           onClick={() => onSelectProduct(product)}
         >
           <img 
@@ -32,7 +26,7 @@ export function ProductCard({ product, onSelectProduct }) {
           />
         </div>
 
-        <div className="relative z-10 p-2.5 flex flex-col justify-between flex-grow bg-gradient-to-b from-neutral-950/80 to-neutral-950">
+        <div className="relative z-10 p-2.5 flex flex-col justify-between flex-grow bg-neutral-950">
           <div>
             <span className="text-[8px] font-bold tracking-widest text-brand-muted uppercase block">
               {product.category}
@@ -51,17 +45,17 @@ export function ProductCard({ product, onSelectProduct }) {
             </span>
             <button 
               onClick={() => addToCart(product, product.sizes[0])}
-              className="bg-white text-black p-1 text-[10px]"
+              className="bg-white text-black p-1 text-[10px] active:scale-90 transition-transform"
               title="Agregar al carrito"
             >
               🛒
             </button>
           </div>
         </div>
-      </motion.div>
+      </div>
 
 
-      {/* ================= VISTA PC (Mantiene todo tu diseño, blur y animaciones fluidas) ================= */}
+      {/* ================= VISTA PC (Mantiene absolutamente todo tu diseño editorial, blur y animaciones pesadas) ================= */}
       <motion.div 
         initial={{ opacity: 0, y: 70, filter: "blur(8px)" }}
         whileInView={{ opacity: 1, y: 0, filter: "blur(0px)" }}
