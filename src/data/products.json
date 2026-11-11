@@ -4,17 +4,19 @@
     "name": "BUZO CORTEIZ",
     "category": "BUZOS",
     "price": 49990,
-    "image": "/INDUMENTARIA/BUZO 1/BUZO1-1.jpg",
+    "image": "/INDUMENTARIA/BUZO 1/BUZO1-1.webp",
     "images": [
-      "/INDUMENTARIA/BUZO 1/BUZO1-1.jpg",
-      "/INDUMENTARIA/BUZO 1/BUZO1-2.jpg",
-      "/INDUMENTARIA/BUZO 1/BUZO1-3.jpg",
-      "/INDUMENTARIA/BUZO 1/BUZO1-4.jpg",
-      "/INDUMENTARIA/BUZO 1/BUZO1-5.jpg",
-      "/INDUMENTARIA/BUZO 1/BUZO1-6.jpg"
+      "/INDUMENTARIA/BUZO 1/BUZO1-1.webp",
+      "/INDUMENTARIA/BUZO 1/BUZO1-2.webp",
+      "/INDUMENTARIA/BUZO 1/BUZO1-3.webp",
+      "/INDUMENTARIA/BUZO 1/BUZO1-4.webp",
+      "/INDUMENTARIA/BUZO 1/BUZO1-5.webp",
+      "/INDUMENTARIA/BUZO 1/BUZO1-6.webp"
     ],
     "description": "",
-    "sizes": ["L"],
+    "sizes": [
+      "L"
+    ],
     "details": "•"
   },
   {
@@ -22,16 +24,18 @@
     "name": "BUZO SUPREME",
     "category": "BUZOS",
     "price": 52990,
-    "image": "/INDUMENTARIA/BUZO 2/BUZO2-1.jpg",
+    "image": "/INDUMENTARIA/BUZO 2/BUZO2-1.webp",
     "images": [
-      "/INDUMENTARIA/BUZO 2/BUZO2-1.jpg",
-      "/INDUMENTARIA/BUZO 2/BUZO2-5.jpg",
-      "/INDUMENTARIA/BUZO 2/BUZO2-3.jpg",
-      "/INDUMENTARIA/BUZO 2/BUZO2-4.jpg",
-      "/INDUMENTARIA/BUZO 2/BUZO2-2.jpg"
+      "/INDUMENTARIA/BUZO 2/BUZO2-1.webp",
+      "/INDUMENTARIA/BUZO 2/BUZO2-5.webp",
+      "/INDUMENTARIA/BUZO 2/BUZO2-3.webp",
+      "/INDUMENTARIA/BUZO 2/BUZO2-4.webp",
+      "/INDUMENTARIA/BUZO 2/BUZO2-2.webp"
     ],
     "description": "Buzo Supreme urbano de corte oversized con detalle de logo frontal.",
-    "sizes": ["L"],
+    "sizes": [
+      "L"
+    ],
     "details": "• 100% Algodón Pesado\nBordado / Estampa clásica de la marca\nPuños y cintura con morley reforzado"
   },
   {
@@ -39,15 +43,17 @@
     "name": "CAMPERA BROKEN PLANET",
     "category": "CAMPERAS",
     "price": 79990,
-    "image": "/INDUMENTARIA/CAMPERA 1/CAMPERA1-1.jpg",
+    "image": "/INDUMENTARIA/CAMPERA 1/CAMPERA1-1.webp",
     "images": [
-      "/INDUMENTARIA/CAMPERA 1/CAMPERA1-1.jpg",
-      "/INDUMENTARIA/CAMPERA 1/CAMPERA1-2.jpg",
-      "/INDUMENTARIA/CAMPERA 1/CAMPERA1-3.jpg",
-      "/INDUMENTARIA/CAMPERA 1/CAMPERA1-4.jpg"
+      "/INDUMENTARIA/CAMPERA 1/CAMPERA1-1.webp",
+      "/INDUMENTARIA/CAMPERA 1/CAMPERA1-2.webp",
+      "/INDUMENTARIA/CAMPERA 1/CAMPERA1-3.webp",
+      "/INDUMENTARIA/CAMPERA 1/CAMPERA1-4.webp"
     ],
     "description": "",
-    "sizes": ["M"],
+    "sizes": [
+      "M"
+    ],
     "details": "•"
   },
   {
@@ -55,15 +61,17 @@
     "name": "CAMPERA CORTEIZ",
     "category": "CAMPERAS",
     "price": 84990,
-    "image": "/INDUMENTARIA/CAMPERA 2/CAMPERA2-1.jpg",
+    "image": "/INDUMENTARIA/CAMPERA 2/CAMPERA2-1.webp",
     "images": [
-      "/INDUMENTARIA/CAMPERA 2/CAMPERA2-1.jpg",
-      "/INDUMENTARIA/CAMPERA 2/CAMPERA2-2.jpg",
-      "/INDUMENTARIA/CAMPERA 2/CAMPERA2-3.jpg",
-      "/INDUMENTARIA/CAMPERA 2/CAMPERA2-4.jpg"
+      "/INDUMENTARIA/CAMPERA 2/CAMPERA2-1.webp",
+      "/INDUMENTARIA/CAMPERA 2/CAMPERA2-2.webp",
+      "/INDUMENTARIA/CAMPERA 2/CAMPERA2-3.webp",
+      "/INDUMENTARIA/CAMPERA 2/CAMPERA2-4.webp"
     ],
     "description": "",
-    "sizes": ["L"],
+    "sizes": [
+      "L"
+    ],
     "details": "•"
   },
   {
@@ -71,17 +79,19 @@
     "name": "CAMPERA ESSENTIALS GRIS",
     "category": "CAMPERAS",
     "price": 76990,
-    "image": "/INDUMENTARIA/CAMPERA 3/CAMPERA3-1.jpg",
+    "image": "/INDUMENTARIA/CAMPERA 3/CAMPERA3-1.webp",
     "images": [
-      "/INDUMENTARIA/CAMPERA 3/CAMPERA3-1.jpg",
-      "/INDUMENTARIA/CAMPERA 3/CAMPERA3-2.jpg",
-      "/INDUMENTARIA/CAMPERA 3/CAMPERA3-3.jpg",
-      "/INDUMENTARIA/CAMPERA 3/CAMPERA3-4.jpg",
-      "/INDUMENTARIA/CAMPERA 3/CAMPERA3-5.jpg",
-      "/INDUMENTARIA/CAMPERA 3/CAMPERA3-6.jpg"
+      "/INDUMENTARIA/CAMPERA 3/CAMPERA3-1.webp",
+      "/INDUMENTARIA/CAMPERA 3/CAMPERA3-2.webp",
+      "/INDUMENTARIA/CAMPERA 3/CAMPERA3-3.webp",
+      "/INDUMENTARIA/CAMPERA 3/CAMPERA3-4.webp",
+      "/INDUMENTARIA/CAMPERA 3/CAMPERA3-5.webp",
+      "/INDUMENTARIA/CAMPERA 3/CAMPERA3-6.webp"
     ],
     "description": "",
-    "sizes": ["M"],
+    "sizes": [
+      "M"
+    ],
     "details": "•"
   },
   {
@@ -89,18 +99,20 @@
     "name": "CAMPERA ESSENTIALS NEGRA",
     "category": "CAMPERAS",
     "price": 78990,
-    "image": "/INDUMENTARIA/CAMPERA 4/CAMPERA4-1.jpg",
+    "image": "/INDUMENTARIA/CAMPERA 4/CAMPERA4-1.webp",
     "images": [
-      "/INDUMENTARIA/CAMPERA 4/CAMPERA4-1.jpg",
-      "/INDUMENTARIA/CAMPERA 4/CAMPERA4-2.jpg",
-      "/INDUMENTARIA/CAMPERA 4/CAMPERA4-3.jpg",
-      "/INDUMENTARIA/CAMPERA 4/CAMPERA4-4.jpg",
-      "/INDUMENTARIA/CAMPERA 4/CAMPERA4-5.jpg",
-      "/INDUMENTARIA/CAMPERA 4/CAMPERA4-6.jpg",
-      "/INDUMENTARIA/CAMPERA 4/CAMPERA4-7.jpg"
+      "/INDUMENTARIA/CAMPERA 4/CAMPERA4-1.webp",
+      "/INDUMENTARIA/CAMPERA 4/CAMPERA4-2.webp",
+      "/INDUMENTARIA/CAMPERA 4/CAMPERA4-3.webp",
+      "/INDUMENTARIA/CAMPERA 4/CAMPERA4-4.webp",
+      "/INDUMENTARIA/CAMPERA 4/CAMPERA4-5.webp",
+      "/INDUMENTARIA/CAMPERA 4/CAMPERA4-6.webp",
+      "/INDUMENTARIA/CAMPERA 4/CAMPERA4-7.webp"
     ],
     "description": "",
-    "sizes": ["L"],
+    "sizes": [
+      "L"
+    ],
     "details": "•"
   },
   {
@@ -108,15 +120,17 @@
     "name": "CHALECO CORTEIZ",
     "category": "CAMPERAS",
     "price": 64990,
-    "image": "/INDUMENTARIA/CHALECO/CHALECO1-1.jpg",
+    "image": "/INDUMENTARIA/CHALECO/CHALECO1-1.webp",
     "images": [
-      "/INDUMENTARIA/CHALECO/CHALECO1-1.jpg",
-      "/INDUMENTARIA/CHALECO/CHALECO1-2.jpg",
-      "/INDUMENTARIA/CHALECO/CHALECO1-3.jpg",
-      "/INDUMENTARIA/CHALECO/CHALECO1-4.jpg"
+      "/INDUMENTARIA/CHALECO/CHALECO1-1.webp",
+      "/INDUMENTARIA/CHALECO/CHALECO1-2.webp",
+      "/INDUMENTARIA/CHALECO/CHALECO1-3.webp",
+      "/INDUMENTARIA/CHALECO/CHALECO1-4.webp"
     ],
     "description": "Chaleco táctico acolchado Corteiz con logo icónico en pecho.",
-    "sizes": ["L"],
+    "sizes": [
+      "L"
+    ],
     "details": "•"
   },
   {
@@ -124,18 +138,20 @@
     "name": "CONJUNTO BROKEN PLANET GRIS",
     "category": "CONJUNTOS",
     "price": 94990,
-    "image": "/INDUMENTARIA/CONJUNTO 1/CONJUNTO1-1.jpg",
+    "image": "/INDUMENTARIA/CONJUNTO 1/CONJUNTO1-1.webp",
     "images": [
-      "/INDUMENTARIA/CONJUNTO 1/CONJUNTO1-1.jpg",
-      "/INDUMENTARIA/CONJUNTO 1/CONJUNTO1-2.jpg",
-      "/INDUMENTARIA/CONJUNTO 1/CONJUNTO1-3.jpg",
-      "/INDUMENTARIA/CONJUNTO 1/CONJUNTO1-4.jpg",
-      "/INDUMENTARIA/CONJUNTO 1/CONJUNTO1-5.jpg",
-      "/INDUMENTARIA/CONJUNTO 1/CONJUNTO1-6.jpg",
-      "/INDUMENTARIA/CONJUNTO 1/CONJUNTO1-7.jpg"
+      "/INDUMENTARIA/CONJUNTO 1/CONJUNTO1-1.webp",
+      "/INDUMENTARIA/CONJUNTO 1/CONJUNTO1-2.webp",
+      "/INDUMENTARIA/CONJUNTO 1/CONJUNTO1-3.webp",
+      "/INDUMENTARIA/CONJUNTO 1/CONJUNTO1-4.webp",
+      "/INDUMENTARIA/CONJUNTO 1/CONJUNTO1-5.webp",
+      "/INDUMENTARIA/CONJUNTO 1/CONJUNTO1-6.webp",
+      "/INDUMENTARIA/CONJUNTO 1/CONJUNTO1-7.webp"
     ],
     "description": "Set de buzo hoodie y pantalon jogger Broken Planet en tono gris melange.",
-    "sizes": ["S"],
+    "sizes": [
+      "S"
+    ],
     "details": "•\n•\n•"
   },
   {
@@ -143,16 +159,18 @@
     "name": "CONJUNTO CORTEIZ NEGRO",
     "category": "CONJUNTOS",
     "price": 98990,
-    "image": "/INDUMENTARIA/CONJUNTO 2/CONJUNTO2-1.jpg",
+    "image": "/INDUMENTARIA/CONJUNTO 2/CONJUNTO2-1.webp",
     "images": [
-      "/INDUMENTARIA/CONJUNTO 2/CONJUNTO2-1.jpg",
-      "/INDUMENTARIA/CONJUNTO 2/CONJUNTO2-2.jpg",
-      "/INDUMENTARIA/CONJUNTO 2/CONJUNTO2-3.jpg",
-      "/INDUMENTARIA/CONJUNTO 2/CONJUNTO2-4.jpg",
-      "/INDUMENTARIA/CONJUNTO 2/CONJUNTO2-5.jpg"
+      "/INDUMENTARIA/CONJUNTO 2/CONJUNTO2-1.webp",
+      "/INDUMENTARIA/CONJUNTO 2/CONJUNTO2-2.webp",
+      "/INDUMENTARIA/CONJUNTO 2/CONJUNTO2-3.webp",
+      "/INDUMENTARIA/CONJUNTO 2/CONJUNTO2-4.webp",
+      "/INDUMENTARIA/CONJUNTO 2/CONJUNTO2-5.webp"
     ],
     "description": "",
-    "sizes": ["L"],
+    "sizes": [
+      "L"
+    ],
     "details": "•"
   },
   {
@@ -160,12 +178,14 @@
     "name": "GORRO URBANO BROKEN PLANET #1",
     "category": "GORROS",
     "price": 19990,
-    "image": "/INDUMENTARIA/GORRO/GORRO1.jpg",
+    "image": "/INDUMENTARIA/GORRO/GORRO1.webp",
     "images": [
-      "/INDUMENTARIA/GORRO/GORRO1.jpg"
+      "/INDUMENTARIA/GORRO/GORRO1.webp"
     ],
     "description": "",
-    "sizes": ["ÚNICO"],
+    "sizes": [
+      "ÚNICO"
+    ],
     "details": "• \n•"
   },
   {
@@ -173,12 +193,14 @@
     "name": "GORRO URBANO BROKEN PLANET #2",
     "category": "GORROS",
     "price": 19990,
-    "image": "/INDUMENTARIA/GORRO/GORRO2.jpg",
+    "image": "/INDUMENTARIA/GORRO/GORRO2.webp",
     "images": [
-      "/INDUMENTARIA/GORRO/GORRO2.jpg"
+      "/INDUMENTARIA/GORRO/GORRO2.webp"
     ],
     "description": "",
-    "sizes": ["ÚNICO"],
+    "sizes": [
+      "ÚNICO"
+    ],
     "details": "• \n•"
   }
 ]

@@ -77,8 +77,6 @@ export default function App() {
             imageSrc2="/IMAGEN 2.png" 
           />
 
-          {/* Marquee inferior de cierre */}
-          <Marquee text=" ESTILO URBANO || CALIDAD PREMIUM || ESTILO URBANO || CALIDAD PREMIUM ||"/>
  
           {/* Footer con Badges */}
           <Footer />
