@@ -23,13 +23,13 @@ export default function App() {
 
   return (
     <CartProvider>
-      {/* Contenedor principal con imagen de fondo desde public y efecto fijo */}
+      {/* Contenedor principal: Fondo negro sólido nativo en mobile (cero lag), imagen de fondo texturizada sólo en MD/PC */}
       <div 
-        className="min-h-screen text-white flex flex-col selection:bg-white selection:text-black bg-cover bg-center relative"
+        className="min-h-screen text-white flex flex-col selection:bg-white selection:text-black bg-neutral-950 md:bg-cover md:bg-center relative"
         style={{ backgroundImage: `url('/BG.jpg')` }}
       >
-        {/* Overlay oscuro (85% de opacidad) para que el catálogo y textos respiren y resalten */}
-        <div className="absolute inset-0 bg-black/85 pointer-events-none z-0" />
+        {/* Overlay oscuro condicional: liviano en mobile, sutilmente traslúcido en PC */}
+        <div className="absolute inset-0 bg-neutral-950 md:bg-black/85 pointer-events-none z-0" />
 
         {/* Contenido general de la tienda sobre el fondo */}
         <div className="relative z-10 flex flex-col min-h-screen">
@@ -49,7 +49,7 @@ export default function App() {
           />
 
           {/* Grilla de Catálogo */}
-          <main className="flex-grow max-w-7xl mx-auto px-4 py-16 w-full" id="catalogo">
+          <main className="flex-grow max-w-7xl mx-auto px-4 py-12 md:py-16 w-full" id="catalogo">
             <div className="flex items-center justify-between mb-8">
               <h2 className="text-lg md:text-xl font-black tracking-wider uppercase">
                 {selectedCategory === 'TODOS' ? 'CATÁLOGO 2026' : selectedCategory.toUpperCase()}
