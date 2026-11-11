@@ -7,13 +7,14 @@ export function ProductCard({ product, onSelectProduct }) {
 
   return (
     <>
-      {/* ================= VISTA MÓVIL ================= */}
+      {/* ================= VISTA MÓVIL (Aceleración por GPU y carga diferida) ================= */}
       <motion.div 
-        initial={{ opacity: 0, y: 40, filter: "blur(6px)" }}
+        initial={{ opacity: 0, y: 30, filter: "blur(4px)" }}
         whileInView={{ opacity: 1, y: 0, filter: "blur(0px)" }}
-        viewport={{ once: false, margin: "-20px" }}
-        transition={{ duration: 0.9, ease: [0.16, 1, 0.3, 1] }}
+        viewport={{ once: true, margin: "-10px" }}
+        transition={{ duration: 0.5, ease: [0.16, 1, 0.3, 1] }}
         whileTap={{ scale: 0.97 }}
+        style={{ willChange: "transform, opacity, filter" }}
         className="block md:hidden group relative bg-neutral-950 border border-brand-border rounded-sm overflow-hidden flex flex-col justify-between shadow-xl"
       >
         <div className="absolute inset-0 opacity-15 bg-[radial-gradient(#383838_1px,transparent_1px)] [background-size:12px_12px] pointer-events-none" />
@@ -25,7 +26,9 @@ export function ProductCard({ product, onSelectProduct }) {
           <img 
             src={product.image} 
             alt={product.name} 
-            className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-700"
+            loading="lazy"
+            decoding="async"
+            className="w-full h-full object-cover object-center"
           />
         </div>
 
@@ -58,7 +61,7 @@ export function ProductCard({ product, onSelectProduct }) {
       </motion.div>
 
 
-      {/* ================= VISTA PC ================= */}
+      {/* ================= VISTA PC (Mantiene todo tu diseño, blur y animaciones fluidas) ================= */}
       <motion.div 
         initial={{ opacity: 0, y: 70, filter: "blur(8px)" }}
         whileInView={{ opacity: 1, y: 0, filter: "blur(0px)" }}
@@ -70,7 +73,8 @@ export function ProductCard({ product, onSelectProduct }) {
           borderColor: "rgba(255, 255, 255, 0.7)",
           transition: { duration: 0.3, ease: "easeOut" } 
         }}
-        className="hidden md:flex group relative bg-neutral-950 border border-brand-border rounded-sm overflow-hidden flex-col justify-between shadow-2xl cursor-pointer"
+        style={{ willChange: "transform, opacity, filter" }}
+        className="hidden md:flex group relative bg-neutral-950 border border-brand-border rounded-sm overflow-hidden flex flex-col justify-between shadow-2xl cursor-pointer"
       >
         <div className="absolute inset-0 opacity-20 bg-[radial-gradient(#4a4a4a_1px,transparent_1px)] [background-size:16px_16px] pointer-events-none group-hover:opacity-30 transition-opacity" />
 
@@ -83,6 +87,8 @@ export function ProductCard({ product, onSelectProduct }) {
             transition={{ duration: 0.8, ease: "easeOut" }}
             src={product.image} 
             alt={product.name} 
+            loading="lazy"
+            decoding="async"
             className="w-full h-full object-cover object-center"
           />
           <div className="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity duration-400 flex items-center justify-center">

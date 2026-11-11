@@ -11,21 +11,24 @@ export function ProductDetailModal({ product, onClose }) {
 
   return (
     <div 
-      className="fixed inset-0 z-50 bg-black/80 backdrop-blur-sm flex items-center justify-center p-4 overflow-y-auto"
+      className="fixed inset-0 z-50 bg-black/85 backdrop-blur-sm flex items-center justify-center p-2 sm:p-4 overflow-y-auto"
       onClick={onClose}
     >
       <div 
-        className="bg-brand-card border border-brand-border text-white w-full max-w-4xl p-6 md:p-8 relative my-8"
+        className="bg-neutral-950 border border-brand-border text-white w-full max-w-4xl relative my-auto p-6 md:p-8 rounded-sm shadow-2xl flex flex-col transform scale-[0.86] sm:scale-100 origin-center transition-transform"
         onClick={(e) => e.stopPropagation()}
       >
+        {/* Botón de cierre */}
         <button 
           onClick={onClose}
-          className="absolute top-4 right-4 text-brand-muted hover:text-white text-xl font-bold p-2 z-10"
+          className="absolute top-4 right-4 text-brand-muted hover:text-white text-xl font-bold p-2 z-20 bg-neutral-900 border border-brand-border"
+          title="Cerrar"
         >
           ✕
         </button>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+        {/* Contenedor principal con el diseño original intacto */}
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
           {/* Galería */}
           <div className="flex flex-col gap-4">
             <div className="aspect-square bg-neutral-900 border border-brand-border overflow-hidden flex items-center justify-center">
@@ -37,7 +40,7 @@ export function ProductDetailModal({ product, onClose }) {
             </div>
 
             {product.images && product.images.length > 1 && (
-              <div className="flex gap-2 overflow-x-auto pb-2">
+              <div className="flex gap-2 overflow-x-auto pb-2 scrollbar-thin">
                 {product.images.map((img, idx) => (
                   <button
                     key={idx}
@@ -56,7 +59,7 @@ export function ProductDetailModal({ product, onClose }) {
           {/* Info y Opciones */}
           <div className="flex flex-col justify-between">
             <div>
-              <span className="text-xs font-bold tracking-widest text-brand-muted uppercase">
+              <span className="text-[10px] font-bold tracking-widest text-brand-muted uppercase block">
                 {product.category}
               </span>
               <h2 className="text-2xl md:text-3xl font-black uppercase tracking-wider mt-1">
@@ -66,31 +69,35 @@ export function ProductDetailModal({ product, onClose }) {
                 ${product.price.toLocaleString('es-AR')}
               </p>
 
-              <p className="text-sm text-neutral-300 mt-4 leading-relaxed">
-                {product.description}
-              </p>
+              {product.description && (
+                <p className="text-sm text-neutral-300 mt-4 leading-relaxed">
+                  {product.description}
+                </p>
+              )}
 
               {/* Talles */}
-              <div className="mt-6">
-                <label className="text-xs font-bold tracking-widest text-brand-muted uppercase block mb-2">
-                  SELECCIONAR TALLE:
-                </label>
-                <div className="flex flex-wrap gap-2">
-                  {product.sizes.map((size) => (
-                    <button
-                      key={size}
-                      onClick={() => setSelectedSize(size)}
-                      className={`px-4 py-2 text-sm font-bold border transition-colors ${
-                        selectedSize === size
-                          ? 'bg-white text-black border-white'
-                          : 'bg-transparent text-white border-brand-border hover:border-neutral-500'
-                      }`}
-                    >
-                      {size}
-                    </button>
-                  ))}
+              {product.sizes && product.sizes.length > 0 && (
+                <div className="mt-6">
+                  <label className="text-xs font-bold tracking-widest text-brand-muted uppercase block mb-2">
+                    SELECCIONAR TALLE:
+                  </label>
+                  <div className="flex flex-wrap gap-2">
+                    {product.sizes.map((size) => (
+                      <button
+                        key={size}
+                        onClick={() => setSelectedSize(size)}
+                        className={`px-4 py-2 text-sm font-bold border transition-colors ${
+                          selectedSize === size
+                            ? 'bg-white text-black border-white'
+                            : 'bg-transparent text-white border-brand-border hover:border-neutral-500'
+                        }`}
+                      >
+                        {size}
+                      </button>
+                    ))}
+                  </div>
                 </div>
-              </div>
+              )}
 
               {product.details && (
                 <div className="mt-6 pt-4 border-t border-brand-border text-xs text-neutral-400 whitespace-pre-line leading-relaxed">
